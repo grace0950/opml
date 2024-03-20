@@ -45,7 +45,7 @@ mlvm:
 
 mlgo:
 	cd mlgo && pip install -r requirements.txt
-	cd mlgo/examples/mnist_mips && ./build.sh
+	cd mlgo/examples/simple_model_mips && ./build.sh
 .PHONY: mlgo
 
 contracts: nodejs

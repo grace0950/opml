@@ -346,6 +346,8 @@ func MIPSRunCompatible(basedir string, target int, programPath string, modelPath
 		LoadInputData(mu, inputPath, ram)
 	}
 	LoadModel(mu, modelPath, ram)
+
+  fmt.Println("Start MIPS VM")
 	
 	
 	if outputGolden {
